@@ -16,6 +16,8 @@
     - create_user.sh
     - update-mailing-list.sh
     - user_account_created.sh
+    - olduser.sh
+    - tut-ldap-search
 
 - name: Copy necessary configs to /usr/local/etc
   tags: useradm
