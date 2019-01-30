@@ -13,11 +13,13 @@
   copy: src=files/admin/{{ item }} dest=/usr/local/sbin mode=0755
   with_items:
     - add-sshkey.sh
+    - create_user_tut.sh
     - create_user.sh
     - update-mailing-list.sh
     - user_account_created.sh
     - olduser.sh
     - tut-ldap-search
+    - tuni-ldap-search
 
 - name: Copy necessary configs to /usr/local/etc
   tags: useradm
