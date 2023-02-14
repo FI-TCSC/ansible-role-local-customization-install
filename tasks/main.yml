@@ -20,6 +20,9 @@
     - olduser.sh
     - tut-ldap-search
     - tuni-ldap-search
+    - mailing-list.sh
+    - slurm-resume.sh
+    - slurm-suspend.sh
 
 - name: Copy necessary configs to /usr/local/etc
   tags: useradm
